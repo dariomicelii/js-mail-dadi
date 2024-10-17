@@ -31,7 +31,7 @@ for(let i = 0; i < mailWithAccess.length; i++){
 //Operatore ternario
 userMail = prompt("inserisci la tua mail:")
 for(let i = 0; i < mailWithAccess.length; i++){
-    console.log (mailWithAccess[i] === userMail ? "Benvenuto!" : "Oops, non sembri essere loggato =(")
+    console.log (mailWithAccess[i] === userMail ? "Benvenuto!" : "Oops, non sembri essere loggato! =(")
 }
 
 
