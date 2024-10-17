@@ -40,8 +40,8 @@
 //Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 //Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-const userGame = parseInt(Math.random() * 7); 
-const computerGame = parseInt(Math.random() * 7);
+const userGame = parseInt(Math.random() * 7) + 1; 
+const computerGame = parseInt(Math.random() * 7) + 1;
 console.log("La puntata dell'utente è di: " + userGame.toFixed())
 console.log("La puntata del computer è di: " + computerGame.toFixed())
 
